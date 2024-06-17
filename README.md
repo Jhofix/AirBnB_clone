@@ -17,3 +17,15 @@ All together, the command interpreter will help to:
 3. Create all classes used for AirBnB (User, State, City, Place…) that inherit from BaseModel
 4. Create the first abstracted storage engine of the project: File storage.
 5. Create all unittests to validate all our classes and storage engine
+
+STARTING THE CONSOLE:
+=====================
+To start the console, use: <./console.py> or <python console.py> without the angle brackets
+
+USAGE:
+======
+Once the console is running, enter commands and press enter
+Example: Entering <hello> without the brackets in the console will call the do_hello() method and pass the remaining words on that line to it as parameters
+
+To exit the console, use: ctrl+d or type <quit> without the angle brackets
+Other details can be found using the <help> command or <?> wildcard
